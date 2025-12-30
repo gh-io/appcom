@@ -3,7 +3,7 @@
 set -e -o pipefail
 
 WORKTREE_BASE_DIR=~/src/worktrees
-IMAGE_NAME="ghcr.io/johnstrunk/agent-container"
+IMAGE_NAME="gh.io/web4application/app-com"
 GCP_CREDS_DEFAULT="$HOME/.config/gcloud/application_default_credentials.json"
 
 function usage {
